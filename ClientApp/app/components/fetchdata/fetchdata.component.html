@@ -1,0 +1,22 @@
+<h1>Products</h1>
+
+<p>This component demonstrates fetching data from the server and parsing the response with all data-related operations (like paging, sorting, filtering, grouping, and aggregates) performed behind the scenes by the <strong>UI for ASP.NET MVC ToDataSourceResult() method</strong>.</p>
+
+<kendo-grid [data]="products"
+            [pageSize]="state.take"
+              [skip]="state.skip"
+              [sort]="state.sort"
+              [sortable]="true"
+              [pageable]="true"
+              [scrollable]="'scrollable'"
+              [groupable]="true"
+              [group]="state.group"
+              [filterable]="true"
+              [filter]="state.filter"
+              (dataStateChange)="dataStateChange($event)"
+            [height]="370">
+    <kendo-grid-column field="productId" [title]="'ID'" [width]="100" [filter]="'numeric'"></kendo-grid-column>
+    <kendo-grid-column field="productName" [title]="'Product Name'" [width]="320"></kendo-grid-column>
+    <kendo-grid-column field="unitPrice" [title]="'Unit Price'" [width]="120" [filter]="'numeric'"></kendo-grid-column>
+    <kendo-grid-column field="unitsInStock" [title]="'Units In Stock'" [width]="120" [filter]="'numeric'"></kendo-grid-column>
+</kendo-grid>
