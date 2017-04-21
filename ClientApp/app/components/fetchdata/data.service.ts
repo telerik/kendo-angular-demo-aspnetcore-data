@@ -8,8 +8,6 @@ import {
     DataSourceRequestState
 } from '@progress/kendo-data-query';
 
-// import { BehaviorSubject } from 'rxjs';
-
 import { GridDataResult, DataStateChangeEvent } from '@progress/kendo-angular-grid';
 
 import { Observable } from 'rxjs';

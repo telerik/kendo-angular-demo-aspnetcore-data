@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Angular2Spa.Models
+﻿namespace Angular2Spa.Models
 {
     public partial class GanttResources
     {
