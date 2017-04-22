@@ -4,4 +4,4 @@ The [UI for ASP.NET Core](http://www.telerik.com/aspnet-core-ui) and [UI for ASP
 
 For a step-by-step tutorial that explains the necessary steps to benefit from these features in the context of an Angular application via the Data Query helpers, refer to the following article:
 
-[Integration with UI for ASP.NET Core](http://http://www.telerik.com/kendo-angular-ui/components/dataquery/mvc-integration/)
+[Integration with UI for ASP.NET Core](http://www.telerik.com/kendo-angular-ui/components/dataquery/mvc-integration/)
