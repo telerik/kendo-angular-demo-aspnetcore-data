@@ -9,6 +9,7 @@ The [UI for ASP.NET Core](http://www.telerik.com/aspnet-core-ui) and [UI for ASP
 1. Clone this repository by using your favorite Git client or by executing `git clone https://github.com/telerik/kendo-angular-demo-aspnetcore-data.git`.
 1. Enter the project directory by running `cd kendo-angular-demo-aspnetcore-data`.
 1. Run `npm install` to install the project dependencies.
+1. Open the `Angular2Spa.csproj` project in Visual Studio.
 
 ## Table of Contents
 
