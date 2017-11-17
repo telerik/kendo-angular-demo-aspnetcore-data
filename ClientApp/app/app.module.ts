@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './components/app/app.component'
@@ -19,6 +20,7 @@ import { DataService } from './components/fetchdata/data.service';
     ],
     imports: [
         BrowserModule,
+        BrowserAnimationsModule,
         HttpModule,
         RouterModule.forRoot([
             { path: '', redirectTo: 'home', pathMatch: 'full' },
