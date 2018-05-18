@@ -8,5 +8,5 @@ The project is based on Microsoft's [Angular project template with ASP.NET Core]
 
 1. Clone this repository by using your favorite Git client or by executing `git clone https://github.com/telerik/kendo-angular-quickstart-dotnet.git`.
 2. Enter the project directory by running `cd kendo-angular-quickstart-dotnet`
-3. Run the project usiong VS 2017
+3. Run the project using VS 2017
 
