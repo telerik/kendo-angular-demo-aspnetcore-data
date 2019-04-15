@@ -1,3 +1,5 @@
+##  This repository is no longer updated. To access the current version, refer to the [`kendo-angular` repository](https://github.com/telerik/kendo-angular/tree/master/examples-standalone/aspnetcore-data).
+
 # Kendo UI for Angular: ASP.NET Core
 
 This repository holds the source code for the article on [Integration with UI for ASP.NET Core](https://www.telerik.com/kendo-angular-ui/components/dataquery/mvc-integration/).
